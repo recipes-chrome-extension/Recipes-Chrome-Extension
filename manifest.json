@@ -2,7 +2,7 @@
     "name": "Recipe Saver Chrome Extension",
     "version": "1.0",
     "description": "A simple Google Chrome Extension to quickly save cooking recipes",
-    "permissions": ["storage"],
+    "permissions": ["storage", "declarativeContent"],
     "background": {
         "scripts": ["app.js"],
         "persistent": false
