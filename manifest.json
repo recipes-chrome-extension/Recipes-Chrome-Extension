@@ -4,7 +4,7 @@
     "description": "A simple Google Chrome Extension to quickly save cooking recipes",
     "permissions": ["storage", "declarativeContent"],
     "background": {
-        "scripts": ["app.js"],
+        "scripts": ["background.js"],
         "persistent": false
     },
     "page_action": {
