@@ -2,23 +2,33 @@
 <html>
     <head>
         <!-- Stylesheet -->
-        <link href="style.css">
+        <link rel="stylesheet" href="./style.css">
+        <!-- <style>
+
+            #container {
+                width: 500px;
+                height: auto;
+                padding: 10px;
+            }
+
+        </style> -->
     </head>
 
     <body>
-        <div>
+        <div id="container">
             <h1>Recipe Saver</h1>
             <button id="getContentBtn">Save Recipe</button>
             <h3>Saved Recipes</h3>
             <ul id="savedList" class="savedList">
                 <!-- Will contain list items -->
+                <li>Test1</li>
+                <li id="recipe-item">Test2</li>
             </ul>
         </div>
         
         
         
         <script src="recipe_scraper.js"></script>
-        <script src="app.js"></script>
     </body>
 
     

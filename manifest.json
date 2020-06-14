@@ -16,12 +16,7 @@
         "default_title": "Test",
         "default_popup": "index.html"
     },
-    "default_icon": {
-        "16": "images/recipe_icon_16.png",
-        "32": "images/recipe_icon_32.png",
-        "48": "images/recipe_icon_48.png",
-        "128": "images/recipe_icon_128.png"
-    },
+    "options_page": "options.html",
     "icons": {
         "16": "images/recipe_icon_16.png",
         "32": "images/recipe_icon_32.png",
